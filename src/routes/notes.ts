@@ -1,5 +1,5 @@
 import express, { json } from "express";
-import { noteValidator, idValidator } from "../helpers/notesValidators";
+import { noteValidator, idValidator } from "../middleware/notesValidators";
 import { noteCreateSchema, noteUpdateSchema } from "../models/noteModel";
 import {
   getNote,
